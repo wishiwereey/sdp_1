@@ -3,6 +3,6 @@ public class BurgerDirector {
         builder.setBun("Classic bun").setPatty("Beef patty").setSauce("Ketchup");
     }
     public void makeVeganBurger(BurgerBuilder builder) {
-        builder.setBun("Whole wheat bun").setPatty("Beyond Meat patty").setSauce("Vegan mayo");
+        builder.setBun("Diet bun").setPatty("No patty").setSauce("Vegan mayo");
     }
 }
