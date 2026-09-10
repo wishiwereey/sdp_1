@@ -1,6 +1,5 @@
 public class BurgerSpecBuilder implements BurgerBuilder {
-    private final StringBuilder sb =
-            new StringBuilder("=== Burger Spec Sheet ===\n");
+    private final StringBuilder sb = new StringBuilder("=== Burger Spec Sheet ===\n");
     public BurgerSpecBuilder setBun(String bun) {
         sb.append("Bun: ").append(bun).append("\n");
         return this;
